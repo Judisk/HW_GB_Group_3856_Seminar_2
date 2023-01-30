@@ -37,10 +37,7 @@ System.Console.WriteLine("Введите число");
 
 number = int.Parse(Console.ReadLine());
 
-numberRes=0;
-
 int i=1000;
-
 
 while (i<=number)
 {
@@ -51,7 +48,7 @@ if (number<100)
 {
      System.Console.WriteLine("Третьей цифры нет");
 }
-else if(number>1000)
+else
 {
     numberRes = number%(i/100);
 
@@ -59,13 +56,6 @@ else if(number>1000)
 
      System.Console.WriteLine(numberRes);
 }
- else
- {
-    numberRes=number%10;
-
-    System.Console.WriteLine(numberRes);
-
- }
 
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
