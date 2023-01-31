@@ -10,7 +10,7 @@ System.Console.WriteLine("Введите целое трехзначное чиc
 
 int number = int.Parse(Console.ReadLine());
 int numberRes=0;
-if (number>100 || number>1000)
+if (number>100 && number<1000)
 {
     numberRes = number%100;
 
